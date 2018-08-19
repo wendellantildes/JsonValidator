@@ -2,12 +2,29 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageVersion>0.1</PackageVersion>
+    <Authors>Wendell Sampaio</Authors>
+    <Description>JsonValidator is a tool that verifies if a json is syntatically correct as defined in json.org. 
+This library is an update from the original JsonChecker class made by Atif Aziz (http://www.raboof.com/projects/jsonchecker/).</Description>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/wendellantildes/JsonValidator/master/JsonValidatorTool/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/wendellantildes/JsonValidator</PackageProjectUrl>
+    <Title>JsonValidator</Title>
+    <PackOnBuild>true</PackOnBuild>
+    <PackageId>JsonValidatorTool_Wendell_Sampaio</PackageId>
+    <Owners>Wendell Sampaio</Owners>
+    <PackageTags>json</PackageTags>
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DocumentationFile>bin\Debug\netstandard2.0\JsonValidatorTool.xml</DocumentationFile>
   </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType></DebugType>
+  </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Class1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NuGet.Build.Packaging" Version="0.2.0" />
   </ItemGroup>
 </Project>

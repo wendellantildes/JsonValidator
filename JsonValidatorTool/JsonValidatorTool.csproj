@@ -8,9 +8,9 @@
 This library is an update from the original JsonChecker class made by Atif Aziz (http://www.raboof.com/projects/jsonchecker/).</Description>
     <PackageLicenseUrl>https://raw.githubusercontent.com/wendellantildes/JsonValidator/master/JsonValidatorTool/LICENSE</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/wendellantildes/JsonValidator</PackageProjectUrl>
-    <Title>JsonValidator</Title>
+    <Title>Json strings Validator </Title>
     <PackOnBuild>true</PackOnBuild>
-    <PackageId>JsonValidatorTool_Wendell_Sampaio</PackageId>
+    <PackageId>JsonValidatorTool</PackageId>
     <Owners>Wendell Sampaio</Owners>
     <PackageTags>json</PackageTags>
   </PropertyGroup>
